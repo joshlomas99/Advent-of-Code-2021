@@ -1,2 +1,3 @@
 # Advent-of-Code-2021
-Just a bit of fun
+
+A 2 part coding puzzle released for every day of advent. There are my solutions in Python (because it's easiest).
