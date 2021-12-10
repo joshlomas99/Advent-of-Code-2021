@@ -43,7 +43,7 @@ case ${answer:0:1} in
 	echo "Latest tag: " $(git tag -l --sort creatordate | tail -n1)
 	read -p "Enter new tag: " tag_new
 	git tag -a $tag_new -m "$commit_message"
-	echo "New lastest tag: " $(git tag | tail -n1)
+	echo "New lastest tag: " $(git tag -l --sort creatordate | tail -n1)
 	read -p "Is this correct [y/n]? " answer
 	case ${answer:0:1} in
 	    y|Y )
