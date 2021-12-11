@@ -1,3 +1,4 @@
+#!/bin/bash
 # Script to add, commit, tag and push to git with a specified commit_message.
 # Usage: bash git.sh commit_message
 
